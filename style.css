@@ -187,3 +187,36 @@ gap:20px;
 }
 
 }
+
+
+.contenido{
+    display:flex;
+    align-items:center;
+    gap:40px;
+}
+
+.progreso{
+    flex:1;
+}
+
+.personaje{
+    width:320px;
+    text-align:center;
+}
+
+#cafetin{
+    width:100%;
+    max-width:280px;
+}
+
+@media (max-width: 768px){
+
+    .contenido{
+        flex-direction:column;
+    }
+
+    .personaje{
+        width:100%;
+    }
+
+}
