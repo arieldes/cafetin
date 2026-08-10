@@ -199,14 +199,22 @@ gap:20px;
     flex:1;
 }
 
-.personaje{
-    width:320px;
-    text-align:center;
+.personaje {
+    text-align: center;
+    margin-top: 45px;
 }
 
-#cafetin{
-    width:100%;
-    max-width:280px;
+#cafetin {
+    display: block;
+    width: 380px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.frase {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 600;
 }
 
 @media (max-width: 768px){
@@ -218,5 +226,20 @@ gap:20px;
     .personaje{
         width:100%;
     }
+
+}
+
+
+#faltante{
+
+text-align:center;
+
+margin-top:15px;
+
+font-size:20px;
+
+font-weight:600;
+
+color:var(--claro);
 
 }
