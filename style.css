@@ -273,7 +273,11 @@ color:var(--claro);
 .cinta-track {
     display: flex;
     width: max-content;
-    animation: moverCinta 45s linear infinite;
+    animation: moverCinta 60s linear infinite;
+}
+
+.cinta-track:hover {
+    animation-play-state: paused;
 }
 
 .cinta-grupo {
