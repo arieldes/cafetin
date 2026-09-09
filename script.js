@@ -45,7 +45,7 @@ fetch("datos.json")
     const faltante = datos.meta - datos.recaudado;
 
     document.getElementById("faltante").textContent =
-        "Nos faltan $" + faltante.toLocaleString("es-CL");
+        "Nos faltó $" + faltante.toLocaleString("es-CL");
 
     document.getElementById("porcentaje").textContent =
         porcentaje.toFixed(1) + "%";
