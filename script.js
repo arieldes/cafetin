@@ -19,7 +19,7 @@ fetch("datos.json")
         (datos.recaudado / datos.meta) * 100;
 
     const cafetin = document.getElementById("cafetin");
-
+/* porcetaje de recaudado para cambiar la imagen del cafetin {
     if (porcentaje < 25) {
 
     cafetin.src = "assets/img/cafetin1.png";
@@ -41,7 +41,13 @@ fetch("datos.json")
     cafetin.src = "assets/img/cafetin5.png";
 
 }
+// final de porcetaje de recaudado para cambiar la imagen del cafetin
+*/
 
+// Asignación directa para mostrar siempre cafetin5.png
+    cafetin.src = "assets/img/cafetin5.png";
+
+    
     const faltante = datos.meta - datos.recaudado;
 
     document.getElementById("faltante").textContent =
